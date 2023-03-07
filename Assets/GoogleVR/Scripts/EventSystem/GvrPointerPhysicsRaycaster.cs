@@ -187,6 +187,7 @@ public class GvrPointerPhysicsRaycaster : GvrBasePointerRaycaster
         {
             numHits = Physics.RaycastNonAlloc(
                 pointerRay.ray, hits, pointerRay.distance, finalEventMask);
+            
         }
 
         if (numHits == 0)
